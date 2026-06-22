@@ -39,5 +39,5 @@ ifftex : https://ifftex.fz-juelich.de/7142823159jhrjmscqbmbg#f14129
 - Present results/performance
 ## Further developments/Outlook (small chapter)
 - Paper: Fast Certified Robust Training with Short Warmup (https://arxiv.org/abs/2103.17268)
-- Paper: Understanding Certified Training with Interval Bound Propagation (https://arxiv.org/abs/2306.10426)
+- Paper: Understanding Certified Training with Interval Bound Propagation (https://arxiv.org/abs/2306.10426) NOT SURE IF THATS RELEVANT FOR OUTLOOK THO
 - How did CROWN-IBP develop further?
