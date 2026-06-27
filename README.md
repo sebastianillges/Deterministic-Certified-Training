@@ -69,7 +69,7 @@ ifftex : https://ifftex.fz-juelich.de/7142823159jhrjmscqbmbg#f14129
 - Certified Training: Small Boxes are All You Need (SABR)(https://arxiv.org/abs/2210.04871)
 - Expressive Losses for Verified Robustness via Convex Combinations (https://proceedings.iclr.cc/paper_files/paper/2024/file/0b7dd2703eca7f58bae0bf455811b27e-Paper-Conference.pdf)
 - TAPS: Connecting Certified and Adversarial Training. (https://arxiv.org/abs/2305.04574)
-- Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective. (SortNet, Lipschitz doesent sound like Bound Propagation, https://arxiv.org/abs/2210.01787)
+- Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective. (SortNet, https://arxiv.org/abs/2210.01787)
 - Adversarial Training and Provable Robustness: A Tale of Two Objectives. (AdvIBP, https://arxiv.org/abs/2008.06081) 
 - IBP Regularization for Verified Adversarial Robustness via Branch-and-Bound. (IBP-R, https://arxiv.org/abs/2210.01787) 
 ### Fast Certified Training
