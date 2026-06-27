@@ -96,6 +96,8 @@ ifftex : https://ifftex.fz-juelich.de/7142823159jhrjmscqbmbg#f14129
 ### Application
 - CertPHash: Towards Certified Perceptual Hashing via Robust Training : (https://www.usenix.org/conference/usenixsecurity25/presentation/yang-yuchen)
 - Certified Robustness in Automated Driving Perception: 2025 : (they talk about verified robustness not certified kinda confusing,https://doi.org/10.1007/) 
+- SoK: Certified Robustness for Deep Neural Networks (https://ieeexplore.ieee.org/document/10179303)
+<img width="1433" height="595" alt="grafik" src="https://github.com/user-attachments/assets/b33976e5-2d55-4a6a-8fe9-8ade45ade37b" />
 
 
 ## Recommended reading order according to *AI*
