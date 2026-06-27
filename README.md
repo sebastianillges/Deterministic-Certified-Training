@@ -93,7 +93,9 @@ ifftex : https://ifftex.fz-juelich.de/7142823159jhrjmscqbmbg#f14129
 - Alpha-Beta-CROWN (https://github.com/Verified-Intelligence/alpha-beta-CROWN)
 ### VNN-COMP
 - International Verification of Neural Networks Competition (https://sites.google.com/view/vnn2025)
-
+### Application
+- CertPHash: Towards Certified Perceptual Hashing via Robust Training : (https://www.usenix.org/conference/usenixsecurity25/presentation/yang-yuchen)
+- Certified Robustness in Automated Driving Perception: 2025 : (they talk about verified robustness not certified kinda confusing,https://doi.org/10.1007/) 
 
 
 ## Recommended reading order according to *AI*
