@@ -59,13 +59,22 @@ ifftex : https://ifftex.fz-juelich.de/7142823159jhrjmscqbmbg#f14129
 ## Core certified training papers
 ### IBP
 - On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models (https://arxiv.org/abs/1810.12715)
+- Differentiable abstract interpretation for provably robust neural networks (https://proceedings.mlr.press/v80/mirman18b/mirman18b.pdf)
 ### CROWN
 - Efficient Neural Network Robustness Certification with General Activation Functions (https://arxiv.org/abs/1811.00866)
 ### CROWN-IBP
 - Towards Stable and Efficient Training of Verifiably Robust Neural Networks (https://arxiv.org/abs/1906.06316)
 ## Modern certified training papers
+### Different Approach (also Bound propagation, just compared to IBP not to IBP-CROWN, mixed with adv training)
+- Certified Training: Small Boxes are All You Need (SABR)(https://arxiv.org/abs/2210.04871)
+- Expressive Losses for Verified Robustness via Convex Combinations (https://proceedings.iclr.cc/paper_files/paper/2024/file/0b7dd2703eca7f58bae0bf455811b27e-Paper-Conference.pdf)
+- TAPS: Connecting Certified and Adversarial Training. (https://arxiv.org/abs/2305.04574)
+- Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective. (SortNet, Lipschitz doesent sound like Bound Propagation, https://arxiv.org/abs/2210.01787)
+- Adversarial Training and Provable Robustness: A Tale of Two Objectives. (AdvIBP, https://arxiv.org/abs/2008.06081) 
+- IBP Regularization for Verified Adversarial Robustness via Branch-and-Bound. (IBP-R, https://arxiv.org/abs/2210.01787) 
 ### Fast Certified Training
 - Fast Certified Robust Training with Short Warmup (https://arxiv.org/abs/2103.17268)
+
 ### Understanding IBP
 - Understanding Certified Training with Interval Bound Propagation (https://arxiv.org/abs/2306.10426)
 ### Theoretical Analysis of Certified Training
