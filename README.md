@@ -121,3 +121,5 @@ ifftex : https://ifftex.fz-juelich.de/7142823159jhrjmscqbmbg#f14129
 - Auto-LiRPA
 - Beta-CROWN
 - Branch and Bound for Piecewise Linear Neural Network Verification
+
+<img width="733" height="700" alt="grafik" src="https://github.com/user-attachments/assets/627f4dec-c8a1-48d5-9b46-a55b6e71820e" />
