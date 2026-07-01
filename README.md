@@ -71,7 +71,8 @@ ifftex : https://ifftex.fz-juelich.de/7142823159jhrjmscqbmbg#f14129
 - TAPS: Connecting Certified and Adversarial Training. (https://arxiv.org/abs/2305.04574)
 - Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective. (SortNet, https://arxiv.org/abs/2210.01787)
 - Adversarial Training and Provable Robustness: A Tale of Two Objectives. (AdvIBP, https://arxiv.org/abs/2008.06081) 
-- IBP Regularization for Verified Adversarial Robustness via Branch-and-Bound. (IBP-R, https://arxiv.org/abs/2210.01787) 
+- IBP Regularization for Verified Adversarial Robustness via Branch-and-Bound. (IBP-R, https://arxiv.org/abs/2210.01787)
+- Learning Better Certified Models from Empirically-Robust Teachers (best robustness and acc atm what about the time doe,https://arxiv.org/pdf/2602.02626) 
 ### Fast Certified Training
 - Fast Certified Robust Training with Short Warmup (https://arxiv.org/abs/2103.17268)
 
@@ -98,6 +99,7 @@ ifftex : https://ifftex.fz-juelich.de/7142823159jhrjmscqbmbg#f14129
 - Certified Robustness in Automated Driving Perception: 2025 : (they talk about verified robustness not certified kinda confusing,https://doi.org/10.1007/) 
 - SoK: Certified Robustness for Deep Neural Networks (https://ieeexplore.ieee.org/document/10179303)
 <img width="1433" height="595" alt="grafik" src="https://github.com/user-attachments/assets/b33976e5-2d55-4a6a-8fe9-8ade45ade37b" />
+- CTBENCH: A Library and Benchmark for Certified Training (same infrastructure for all algorithms ,https://arxiv.org/pdf/2406.04848)
 
 
 ## Recommended reading order according to *AI*
