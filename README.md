@@ -96,7 +96,7 @@ ifftex : https://ifftex.fz-juelich.de/7142823159jhrjmscqbmbg#f14129
 - International Verification of Neural Networks Competition (https://sites.google.com/view/vnn2025)
 ### Application
 - CertPHash: Towards Certified Perceptual Hashing via Robust Training : (https://www.usenix.org/conference/usenixsecurity25/presentation/yang-yuchen)
-- Certified Robustness in Automated Driving Perception: 2025 : (they talk about verified robustness not certified kinda confusing,https://doi.org/10.1007/) 
+- Certified Robustness in Automated Driving Perception: 2025 : (they talk about verified robustness not certified kinda confusing, https://doi.org/10.1007/s42154-024-00347-3) 
 - SoK: Certified Robustness for Deep Neural Networks (https://ieeexplore.ieee.org/document/10179303)
 <img width="1433" height="595" alt="grafik" src="https://github.com/user-attachments/assets/b33976e5-2d55-4a6a-8fe9-8ade45ade37b" />
 - CTBENCH: A Library and Benchmark for Certified Training (same infrastructure for all algorithms ,https://arxiv.org/pdf/2406.04848)
