@@ -123,3 +123,4 @@ ifftex : https://ifftex.fz-juelich.de/7142823159jhrjmscqbmbg#f14129
 - Branch and Bound for Piecewise Linear Neural Network Verification
 
 <img width="733" height="700" alt="grafik" src="https://github.com/user-attachments/assets/627f4dec-c8a1-48d5-9b46-a55b6e71820e" />
+<img width="1284" height="466" alt="grafik" src="https://github.com/user-attachments/assets/c1ec5a39-cd6a-4a98-859c-e02843ffebe7" />
