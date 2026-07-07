@@ -66,6 +66,8 @@ ifftex : https://ifftex.fz-juelich.de/7142823159jhrjmscqbmbg#f14129
 - Towards Stable and Efficient Training of Verifiably Robust Neural Networks (https://arxiv.org/abs/1906.06316)
 ## Modern certified training papers
 ### Different Approach (also Bound propagation, just compared to IBP not to IBP-CROWN, mixed with adv training)
+- References
+Adversarial Training and Provable Defenses: Bridging the Gap (https://openreview.net/forum?id=SJxSDxrKDr)
 - Certified Training: Small Boxes are All You Need (SABR)(https://arxiv.org/abs/2210.04871)
 - Expressive Losses for Verified Robustness via Convex Combinations (https://proceedings.iclr.cc/paper_files/paper/2024/file/0b7dd2703eca7f58bae0bf455811b27e-Paper-Conference.pdf)
 - TAPS: Connecting Certified and Adversarial Training. (https://arxiv.org/abs/2305.04574)
