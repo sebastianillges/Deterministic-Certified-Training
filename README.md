@@ -126,3 +126,28 @@ Adversarial Training and Provable Defenses: Bridging the Gap (https://openreview
 
 <img width="733" height="700" alt="grafik" src="https://github.com/user-attachments/assets/627f4dec-c8a1-48d5-9b46-a55b6e71820e" />
 <img width="1284" height="466" alt="grafik" src="https://github.com/user-attachments/assets/c1ec5a39-cd6a-4a98-859c-e02843ffebe7" />
+
+Bogen 1: Introduction — die Landkarte (deskriptiv)
+Die Kernbewegung ist eine einzige: schrittweise Reduktion der Über-Regularisierung. Daran hängst du die Methoden als Stationen auf.
+
+Startpunkt / Problem: Certified training braucht eine Approximation des intraktablen worst-case Loss. Der naheliegende Weg — sound over-approximation (IBP) — funktioniert für die Zertifizierung, aber die garantierte obere Schranke ist pessimistisch → Über-Regularisierung → schlechte Standard-Accuracy. Das ist die Spannung, die alles Folgende antreibt.
+Erste Antwort — unsound approximations: Man opfert die Garantie im Training, um präziser zu approximieren. SABR (kleine Box um adversarialen Punkt), TAPS (IBP + latenter Angriff). Weniger Über-Regularisierung → bessere Accuracy und Certified.
+Der Enabler (wichtig, gehört mit in den Bogen): Das ging nur, weil sich gleichzeitig die complete verifiers (branch-and-bound, α,β-CROWN) entwickelt haben — unsound-Netze sind mit billigem IBP nicht zertifizierbar. Trainings- und Verifikationsfortschritt bedingen sich.
+Verallgemeinerung — expressive losses: Die einzelnen Heuristiken werden unter ein Prinzip gefasst (Interpolation adversarial↔verified über α\alpha
+α). CC-IBP, MTL-IBP, Exp-IBP.
+Jüngste Station — Distillation (CC-Dist): Selbst expressive losses schließen die Lücke zu empirischer Robustheit nicht. Also transferiert man die guten Repräsentationen eines empirisch-robusten Lehrers.
+Abschluss des Bogens: Ein Satz, dass du diese Entwicklung in dieser Reihenfolge nachzeichnest.
+
+Ton: behaupten, ordnen, orientieren. Keine Wertung, kein „aber". Die Intro erzählt die saubere Version.
+Bogen 2: Discussion — die kritische Wendung (analytisch)
+Hier nimmst du die scheinbar selbstverständliche Prämisse aus Bogen 1 und stellst sie in Frage. Die Kette:
+
+Die implizite Annahme benennen: Der ganze sound→unsound-Fortschritt beruht auf einer Prämisse — präzisere worst-case-Loss-Approximation → bessere Performance. SABR und besonders TAPS begründen ihren Erfolg explizit damit (TAPS: „5-fold approximation error reduction" als zentrales Verkaufsargument).
+Die Widerlegung: De Palma et al. (expressive losses) testen das direkt und finden: Das beste α\alpha
+α entspricht nicht der besten Loss-Approximation (Abschnitt 6.3). Bei kleinen ϵ\epsilon
+ϵ sind sogar über-approximierende Losses besser. Nicht Präzision zählt, sondern Expressivity — die Fähigkeit, überhaupt zwischen adversarial und verified zu interpolieren.
+Die Konsequenz / Deutung: Das heißt, die Erfolgsgeschichte aus Bogen 1 stimmt im Ergebnis (die Methoden werden besser), aber die Begründung der Autoren (Präzision) ist vermutlich nicht der eigentliche Mechanismus. Der Fortschritt kam durch bessere Trade-off-Steuerung, nicht durch genaueres Treffen des worst case.
+Optionaler zweiter Faden (verstärkt den kritischen Ton): Dazu passt, dass viel Erfolg in geteilter Infrastruktur steckt (Shi et al. Initialisierung, BatchNorm, ℓ1\ell_1
+ℓ1​) statt in den namensgebenden Ideen — was die Frage aufwirft, wie viel jeder Einzelbeitrag wirklich beiträgt. Das ist dieselbe Skepsis gegenüber den behaupteten Erfolgsgründen.
+
+Ton: hinterfragen, gegenüberstellen, urteilen. Hier ist das „aber" erlaubt, hier belegst du mit Tabellen.
